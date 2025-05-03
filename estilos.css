@@ -24,92 +24,93 @@
     height: 100%;
     background-color: #d9cf91;
 }
-.header{
+.cabecera{
     width: 100vw;
     height: 25vh;
     background-color: rgb(199, 136, 179);
     display: flex;
     flex-direction: row;
 }
-.header .formulario{
+.cabecera .form{
     width: 8%;
     height: 20vh;
-    margin: 1.5%;
+    margin: 1%;
     margin-left: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.header .formulario .headerInF{
+.cabecera .form .cabeceraInF{
     width: 100%;
     height: 15%;
     background-color: rgb(38, 38, 38);
 }
-.header .formulario .mainInF{
+.cabecera .form .mainInF{
     width: 100%;
     height: 85%;
     background-color: #a9a9a9;
 }
-.header .formulario .mainInF .p{
+.cabecera .form .mainInF .p{
     width: 50%;
     height: 10%;
     margin: auto;
     margin-top: 10%;
     background-color: #FFFFFF;
 }
-.header .formulario .mainInF .p2{
+.cabecera .form .mainInF .p2{
     width: 50%;
     height: 10%;
     margin: auto;
     margin-top: 10%;
     background-color: #d9cf91;
 }
-.header .article{
+.cabecera .article{
     width: 70vw;
     height: 25vh;
     margin-top: 3vh;
     margin-inline: 10vh;
 }
-.header .article .titulo{
+.cabecera .article .titulo{
     background-color: #d9cf91;
     width: 40%;
     height: 10%;
 }
-.header .article .texto{
-    background-color: #FFFFFF;
+.cabecera .article .jacinta{
+    background-color: #000000;
     width: 80%;
-    height: 2.5%;
+    height: 2%;
     margin-block: 1%;
 }
-.header .article .minitexto{
-    background-color: #FFFFFF;
+.cabecera .article .minijacinta{
+    background-color: #000000;
     width: 40%;
-    height: 2.5%;
+    height: 2%;
     margin-inline: 20%;
 }
 .main{
     width: 100vw;
     height: 56vh;
-    background-color: #FFFFFF;
+    background-color: #ffe2e2;
     text-align: center;
 }
 .main .aticle{
     width: 80vw;
     margin-left: 0;
-    margin-inline: 17.5%;
+    margin-inline: 17%;
     margin-bottom: 5%;
     
 }
 .main .div{
     display: flex;
     flex-direction: row;  
-    justify-content: center;  
+    justify-content: center;
+    margin-left: 3vw;  
 }
 .main .div .article{
-    margin: 3vw;
+    margin: 4vw;
     margin-top: 1vw;
-    width: 16.6vw;
-    height: 33.6vh;
+    width: 16vw;
+    height: 33vh;
 }
 .main .article{
     width: 33vw;
@@ -129,46 +130,46 @@
     width: 80%;
     height: 2vh;
     margin: 1%;
-    background-color:#656A73
+    background-color:red;
 }
-.main .texto{
+.main .jacinta{
     width: 80%;
     height: 1vh;
-    background-color: #CCCBCA;
+    background-color: black;
     margin: 1%;
     margin-bottom: 0%;
 }
-.main .minitexto{
+.main .minijacinta{
     width: 60%;
     height: 1vh;
-    background-color: #CCCBCA;
+    background-color: black;
     margin: 1%;
     margin-bottom: 0%;
     margin-inline: 10%;
 }
 
-.footer{
+.piecera{
     width: 100vw;
     height: 8vh;
     background-color: palevioletred;
     display: flex;
 }
 
-.footer .p1{
+.piecera .p1{
     background-color: #d9cf91;
     width: 30%;
     height: 20%;
     height: 20%;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     margin-right: 20%;
     margin-left: 10%;
 }
-.footer .p2{
+.piecera .p2{
     background-color: #d9cf91;
     width: 10%;
     height: 20%;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     margin-right: 2%;
 }
